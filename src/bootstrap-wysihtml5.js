@@ -142,7 +142,7 @@
 				parserRules = options.parserRules;
 			}
 				
-			var editor = new wysi.Editor(this.el.attr('id'), {
+			var editor = new wysi.Editor(this.el[0], {
 	    		toolbar: this.toolbar.attr('id'),
 				parserRules: parserRules
 	  		});
